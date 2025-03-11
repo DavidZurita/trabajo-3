@@ -2,7 +2,7 @@
 
  
 
-Para archivo .txt 
+### Para archivo .txt 
 
  
 
@@ -27,8 +27,7 @@ Con esto se creará el entorno llamado “nombre entorno” con los paquetes esp
  
 
  
-
-Para archivo .yml 
+### Para archivo .yml 
 
 Es muy similar, primero debemos tener preparado el archivo .yml, mismo que debe tener los paquetes necesarios.  
 
