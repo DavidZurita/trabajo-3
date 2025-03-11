@@ -8,9 +8,6 @@ Para archivo .txt
 
 Para crear el entorno Conda, primero se debe de asegurar que el archivo tenga los paquetes necesarios. En este caso son: 
  
-<img width="421" alt="image" src="https://github.com/user-attachments/assets/068c4b10-dc40-495e-9c32-0aab832481e1" />
-
-
 numpy  
 
 pandas  
@@ -19,6 +16,7 @@ matplotlib
 
 seaborn 
 
+<img width="421" alt="image" src="https://github.com/user-attachments/assets/068c4b10-dc40-495e-9c32-0aab832481e1" />
 
 Después se debe ejecutar el siguiente comando en el terminal 
 
