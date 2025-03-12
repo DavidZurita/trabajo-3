@@ -43,6 +43,7 @@ name: entorno dependencies:
 Errores encontrados en el ejercicio Opción 2
 Error 1: "ModuleNotFoundError: No module named 'seaborn'", esto lo resolvimos con el comando pip install seaborn.
 
-Mensaje de aviso por cambios futuros
+> [!WARNING]
+> Mensaje de aviso por cambios futuros <br/>
 /tmp/ipykernel_6229/2243821585.py:6: FutureWarning: 'H' is deprecated and will be removed in a future version, please use 'h' instead.
   'timestamp': pd.date_range(start='2023-01-01', periods=10, freq='H'),
