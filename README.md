@@ -39,8 +39,8 @@ name: entorno dependencies:
 
 
 > [!CAUTION]
-> Errores encontrados
-Errores encontrados en el ejercicio Opción 2
+> Errores encontrados <br/>
+Errores encontrados en el ejercicio Opción 2 <br/>
 Error 1: "ModuleNotFoundError: No module named 'seaborn'", esto lo resolvimos con el comando pip install seaborn.
 
 > [!WARNING]
