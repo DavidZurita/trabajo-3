@@ -15,14 +15,14 @@
 >Con esto se creará el entorno llamado “nombre entorno” con los paquetes especificados en el archivo .txt
 
 >[!Note]
->Para archivo .yml
->Es muy similar, primero debemos tener preparado el archivo .yml, mismo que debe tener los paquetes necesarios.
->name: entorno dependencies:
->   python=3.12.7
->   numpy
->   pandas
->   matplotlib
->   seaborn
+>Para archivo .yml <br/>
+>Es muy similar, primero debemos tener preparado el archivo .yml, mismo que debe tener los paquetes necesarios.<br/>
+>name: entorno dependencies:<br/>
+>python=3.12.7<br/>
+>numpy<br/>
+>pandas<br/>
+>matplotlib<br/>
+>seaborn<br/>
 
 > [!Tip] 
 >Después se debe ejecutar el siguiente comando en el terminal
