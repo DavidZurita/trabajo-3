@@ -23,8 +23,8 @@ RUN echo "source activate trabajo3" > ~/.bashrc
 # Copia el script start-notebook.sh
 COPY .devcontainer/start-notebook.sh /trabajo-3/start-notebook.sh
 
-# Otorga permisos de ejecución al archivo start-notebook.sh (por si acaso)
-RUN chmod +x /trabajo-3/start-notebook.sh
+# Otorga permisos de ejecución al archivo start-notebook.sh
+RUN chmod 777 /trabajo-3/start-notebook.sh
 
 # Exponer el puerto que usa Jupyter Notebook
 EXPOSE 8888
@@ -33,7 +33,7 @@ EXPOSE 8888
 # CMD ["start-notebook.sh --NotebookApp.password='A1c!9kS1' --NotebookApp.ip='127.0.0.1' --NotebookApp.port=8888 --no-browser --allow-root"]
 # CMD /bin/bash -c "start-notebook.sh --NotebookApp.password='A1c!9kS1' --NotebookApp.ip='127.0.0.1' --NotebookApp.port=8888 --no-browser --allow-root"
 # Comando para iniciar Jupyter Notebook
-CMD ["/bin/bash", "-c", "/trabajo-3/start-notebook.sh"]
+# CMD ["/bin/bash", "-c", "exec /trabajo-3/start-notebook.sh"]
 
 
 
