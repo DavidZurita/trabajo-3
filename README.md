@@ -9,7 +9,7 @@
 >   matplotlib
 >   seaborn
 
->: [!Tip]
+> [!Tip]
 >Después se debe ejecutar el siguiente comando en el terminal
 >   conda create –-nombre entorno --requirements.txt
 >Con esto se creará el entorno llamado “nombre entorno” con los paquetes especificados en el archivo .txt
@@ -36,9 +36,3 @@
 >jupyter server list
 >Este comando despliega la dirección del jupyter con el token respectivo; para iniciar a realizar los trabajos respectivos se debe copiar el enlace resultante.
 >Ejemplo: "http://localhost:8888/?token=7a9e23431312f878fc4946782dbdfa0186ee0d8487103d2c"
-
-> [!WARNING]
-> Urgent info that needs immediate user attention to avoid problems.
-
-> [!CAUTION]
-> Advises about risks or negative outcomes of certain actions.
