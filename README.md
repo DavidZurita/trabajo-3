@@ -15,7 +15,7 @@
 >Con esto se creará el entorno llamado “nombre entorno” con los paquetes especificados en el archivo .txt
 
 >[!Note]
->Para archivo .yml <br/>
+>Para archivo .yml<n/>
 >Es muy similar, primero debemos tener preparado el archivo .yml, mismo que debe tener los paquetes necesarios.<br/>
 >name: entorno dependencies:<br/>
 >python=3.12.7<br/>
