@@ -14,15 +14,15 @@
 >   conda create –-nombre entorno --requirements.txt
 >Con esto se creará el entorno llamado “nombre entorno” con los paquetes especificados en el archivo .txt
 
->[!Note]
->Para archivo .yml<n/>
->Es muy similar, primero debemos tener preparado el archivo .yml, mismo que debe tener los paquetes necesarios.<br/>
->name: entorno dependencies:<br/>
->python=3.12.7<br/>
->numpy<br/>
->pandas<br/>
->matplotlib<br/>
->seaborn<br/>
+
+Para archivo .yml
+Es muy similar, primero debemos tener preparado el archivo .yml, mismo que debe tener los paquetes necesarios.
+name: entorno dependencies:
+    python=3.12.7
+    numpy
+    pandas
+    matplotlib
+    seaborn
 
 > [!Tip] 
 >Después se debe ejecutar el siguiente comando en el terminal
@@ -30,7 +30,7 @@
 >Tras ejecutar el comando, se creará un entorno Conda con la configuración especificada en el archivo .yml, en este caso “entorno.yml.”
 
 > [!IMPORTANT]
-> Una vez cargado el docker con la imagen preconfigurada se debe realizar las siguientes acciones con la finalidad de trabajar con jupyter notes: <br/>
+> Una vez cargado el docker con la imagen preconfigurada se debe realizar las siguientes acciones con la finalidad de trabajar con jupyter notes:
 > Ejecutar en la terminal el siguiente comando: jupyter notes
 >Una vez cargado el jupyter, se debe ejecutar el comando: 
 >jupyter server list
